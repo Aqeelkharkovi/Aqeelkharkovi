@@ -1,0 +1,157 @@
+
+/* ================================= hero_banner  css start ============================ */
+.hero_banner .main-wrap {
+    padding: 50px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.hero_banner .title {
+    font-size: 48px;
+    font-family: 'Coustard', serif;
+    text-transform: capitalize;
+    color: #000;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 35px;
+    font-weight: 400;
+    line-height: 1.4;
+    opacity: 0.8;
+}
+.hero_banner .view_protolio-btn {
+    display: block;
+    text-align: center;
+    max-width: 151px;
+    margin: 0 auto 100px;
+    border: 2px solid #000;
+    padding: 18px 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+    transition: all ease-in-out 0.3s;
+}
+.hero_banner .view_protolio-btn:hover {
+    color: #fff;
+    background-color: #2a2a2a;
+    opacity: 1;
+}
+.hero_banner .pre_title {
+    letter-spacing: 6px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Karla';
+    line-height: 1.3;
+    color: #000;
+    box-shadow: inset 0 -7px 0 #FFFC7F;
+    max-width: fit-content;
+    margin: 0 auto 40px;
+}
+.hero_banner-logo-title_wrap .logo_image {
+    max-width: 52px;
+    margin-right: 23px;
+}
+.hero_banner-logo-title_wrap .logo_title {
+    font-family: 'Coustard';
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #000;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+.hero_banner-logo-title_wrap .logo_text {
+    font-family: 'Karla';
+    color: #222222;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+.hero_banner-logo-title_wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px 50px;
+}
+.hero_banner-logo-title_wrap .logo-title-block.flex {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 15px;
+    align-items: start;
+    padding-bottom: 40px;
+}
+.hero_banner .companey_title {
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Coustard';
+    color: #222222;
+    opacity: 0.3;
+}
+.hero_banner .companey_logo {
+    max-width: 52px;
+    margin: 0 auto 20px;
+}
+.hero_banner .wpb_wrapper {
+    max-width: 227px;
+    cursor: pointer;
+}
+.hero_banner .companey_logo_wrap.display {
+    margin-bottom: 120px;
+}
+/* ================================= hero_banner  css end   ============================ */
+/* ================================= hero_banner  css end   ============================ */
+@media screen and (max-width:991px){
+    .hero_banner .companey_title{
+        text-align: center;
+        font-size: 13px;
+    }
+    .hero_banner-logo-title_wrap .logo_title {
+        font-size: 14px;
+    }
+    .hero_banner-logo-title_wrap .logo_text {
+        font-size: 13px;
+    }
+    .hero_banner .companey_logo {
+        max-width: 45px;
+        margin: 0 auto 12px;
+    }    
+}
+@media screen and (max-width:767px){
+    .hero_banner .title {
+        font-size: 26px;
+    }
+    .hero_banner-logo-title_wrap .logo-title-block.flex {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .hero_banner .wpb_wrapper {
+        max-width: 50%;
+        flex: 50%;
+        margin-bottom: 26px;
+    }
+    .hero_banner .companey_logo_wrap.display {
+        margin-bottom: 120px;
+        flex-wrap: wrap;
+    }
+    .hero_banner .companey_logo_wrap.display {
+        margin-bottom: 120px;
+        flex-wrap: wrap;
+        margin: 0 -15px 40px;
+    }    
+    .footer_menu_list.item1 {
+        margin-bottom: 57px;
+    }
+    .hero_banner .main-wrap{
+        padding: 30px 0;
+    }
+}
+/* ================================= hero_banner  css end   ============================ */

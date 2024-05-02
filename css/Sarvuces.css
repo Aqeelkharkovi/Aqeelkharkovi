@@ -1,0 +1,137 @@
+/* ============================ .Services section start css ========================================= */
+.Services_main-title {
+    text-align: center;
+    font-family: 'Coustard';
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+.Services .main_Wrap {
+    padding-block: 50px 130px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Services_wpb_wrapper.flex {
+    justify-content: center;
+    align-items: start;
+    margin: 0 -15px 120px;
+}
+.Services .wpb_wrap_title {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Coustard';
+    font-weight: 400;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+}
+.Services .wpb_wrap {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 15px;
+}
+.Services .wpb_wrap_image {
+    max-width: 225px;
+    margin: 0 auto 35px;
+}
+.Services .wpb_wrap_image.item2 {
+    max-width: 200px;
+}
+.Services .wpb_wrap_para {
+    font-size: 18px;
+    color: #222;
+    font-family: 'Karla';
+    line-height: 1.7;
+}
+.Services_Skils_wrapper {
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px -35px;
+}
+.Services_Skils_block {
+    max-width: 33%;
+    flex: 33%;
+    align-items: start;
+    padding: 0 15px;
+    margin-bottom: 35px;
+}
+.Services_Skils_img {
+    max-width: 52px;
+}
+.Services .main_title {
+    text-align: center;
+    margin-bottom: 53px;
+    font-family: 'Coustard';
+    font-size: 25px;
+    font-weight: 400;
+    color: #222;
+    text-transform: capitalize;
+}
+.Services .Services_Skils_content {
+    margin-left: 20px;
+}
+.Services_Skils_content-title {
+    font-weight: 400;
+    font-family: 'Coustard';
+    color: #222;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+.Services_Skils_content-para {
+    font-family: 'Karla';
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    line-height: 1.7;
+}
+/* =========================== .Services section End css =================/
+/* =========================== media screen  section start css============ */
+@media screen and (max-width:990px) {
+    .Services_main-title {
+        font-size: 20px;
+    }
+    .Services .wpb_wrap_title {
+        font-size: 20px;
+    }
+    .Services .wpb_wrap_para {
+        font-size: 13px;
+    }
+    .Services .main_title {
+        font-size: 18px;
+    }
+    .Services_Skils_content-title {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:767px){
+    .Services_wpb_wrapper.flex {
+        flex-wrap: wrap;
+    }
+    .Services .wpb_wrap {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .Services_Skils_block {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .Services .wpb_wrap:first-child {
+        margin-bottom: 35px;
+    }
+    .Services .main_Wrap {
+        padding-block: 30px 90px;
+    }
+    .Services_main-title {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .Services .wpb_wrap_title {
+        font-size: 18px;
+    }    
+    .Services .main_title {
+        font-size: 15px;
+    }
+}
+/* =========================== media screen  section end css============ */

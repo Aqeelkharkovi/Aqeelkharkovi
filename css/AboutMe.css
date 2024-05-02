@@ -1,0 +1,130 @@
+/* ========================== information start css ========================================= */
+.information .main-wrap {
+    padding-block: 50px 130px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.information .information_image {
+    max-width: 300px ;
+    margin: 0 auto 30px;
+}
+.information_social-icon_wrapper.flex {
+    justify-content: center;
+    margin: 0 -20px;
+}
+.information_title {
+    font-family: 'Coustard';
+    font-weight: 400;
+    font-size: 29px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-bottom: 80px;
+}
+.information_title-name {
+    font-family: 'Coustard';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.information_title-name .info_title {
+    color: gold;
+}
+.information_para {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+.information .detils {
+    font-family: 'Karla';
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+}
+.information .detils_title {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+}
+.information .bottom_title {
+    font-size: 20px;
+    font-family: 'Coustard';
+    color: #222;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    margin-bottom: 35px;
+}
+.information .social-icon {
+    max-width: 12px;
+}
+.information .social-icon {
+    max-width: 12px;
+}
+.information .social-icon_block {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.information .social-icon_block:hover {
+    background-color:#222222;
+}
+.information .social-icon_block:hover .social-icon svg {
+    fill: #fff;
+    stroke: #fff ;
+}
+.information .social-icon.fackbook {
+    max-width: 7px;
+}
+/* =========================== information section End css ======================================== */
+/* =========================== media screen  section start css===================================== */
+@media screen and (max-width:990px){
+    .information_title {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }    
+    .information_title-name {
+        font-size: 18px;
+    }
+    .information_para {
+        font-size: 13px;
+    }
+    .information .detils {
+        font-size: 13px;
+    }
+    .information .detils_title {
+        font-size: 13px;
+    }
+    .information .bottom_title {
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+}
+@media screen and (max-width:767px){
+    .information .main-wrap {
+        padding-block: 30px 70px;
+    }.information_title {
+        font-size: 18px;
+    }
+}
+/* =========================== media screen  section end css======================================== */

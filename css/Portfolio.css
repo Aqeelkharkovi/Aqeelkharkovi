@@ -1,0 +1,211 @@
+/* ======================Portfolio section start css====================================== */
+.Portfolio .main-wrap {
+    padding-block: 50px 130px;
+}
+.Portfolio .main-title {
+    font-family: 'Coustard';
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 1.3;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.Portfolio_Tabs.flex {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Portfolio .tabs {
+    border: 1px solid rgba(235,235,235,.8);
+    border-right: 0.5px;
+    font-family: 'Karla';
+    color: #222;
+    padding: 7px 11px;
+    font-size: 18px;
+    font-weight: 400;
+    transition:all ease-in-out 0.2s;
+}
+.Portfolio .tabs:hover {
+   background-color: #222;
+   color: #fff;
+}
+.Portfolio .tabs.item1 {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.Portfolio .tabs.item2 {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-right: 1px solid rgba(235,235,235,.8);
+}
+.Portfolio_inner_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    transition:all ease-in-out 0.5s;
+}
+.Portfolio_inner_image {
+    height: 507px;
+    transition: all ease-in-out 0.5s ;
+}
+.Portfolio_inner_content .title {
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.Portfolio_inner_link {
+    max-width: 33.33%;
+    flex: 33.33%;
+    height: 507px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.Portfolio_inner_content .line {
+    border: 2px solid #fff;
+    max-width: 243px;
+    height: 0;
+    margin-bottom: 15px;
+}
+.Portfolio_inner_content .text {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-family: Roboto;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.Portfolio_inner_image_wrap.flex {
+    flex-wrap: wrap;
+    margin:0 -20px;
+}
+.Portfolio_inner_image-block {
+    position: relative;
+}
+@media screen and (min-width:768px) {
+    .Portfolio_inner_image-block:hover .Portfolio_inner_content {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .Portfolio_inner_image-block:hover .Portfolio_inner_content {
+        transform: rotateY( 180deg);
+    } 
+    .Portfolio_inner_image-block:hover .Portfolio_inner_image {
+        transform: rotateY( 180deg );
+    }
+    .Portfolio_inner_image img {
+        transform: rotateY(-180deg);
+    }
+}
+/* ============================== Portfolio section End css =======================*/
+/* =========================== media screen  section start css===================== */
+@media screen and (max-width:1340px) {
+.Portfolio_inner_link {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+    height: 400px;
+    margin-bottom: 20px;
+    }
+    .Portfolio_inner_content .title {
+        font-size: 20px;
+    }
+    .Portfolio_inner_image {
+        height: 400px;
+    }
+}
+@media screen and (max-width:1280px) {
+    .Portfolio_inner_link{
+        height: 350px;
+    }
+    .Portfolio_inner_image {
+        height: 350px;
+    }
+    .Portfolio_inner_content .title {
+        font-size: 17px;
+    }    
+    .Portfolio_inner_content {
+        padding-left: 15px;
+    }
+    .Portfolio_inner_content .line {
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:990px) {
+    .Portfolio_inner_link {
+        max-width: 50%;
+        flex: 50%;
+        height: 400px;
+    }
+    .Portfolio_inner_image {
+        height: 400px;
+    }
+    .Portfolio_inner_content .title {
+        font-size: 19px;
+    }
+    .Portfolio .main-title {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:767px) {
+    .Portfolio_inner_link {
+        max-width: 100%;
+        flex: 100%;
+        height: 350px;
+    }
+    .Portfolio .main-wrap {
+        padding-block: 50px 70px;
+    }
+    .Portfolio_inner_image_wrap.flex {
+        margin: 0 auto;
+    }
+    .Portfolio_inner_image {
+        height: 350px;
+    }
+    .Portfolio_inner_content {
+       background-color: rgba(0, 0, 0, 0.5);
+    }
+    .Portfolio_inner_content .title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .Portfolio_inner_image {
+        height: 280px;
+    }
+    .Portfolio_inner_link {
+        max-width: 100%;
+        flex: 100%;
+        height: 280px;
+    }
+    .Portfolio_inner_content .title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .Portfolio_inner_image {
+        height: 280px;
+    }
+    .Portfolio_inner_link {
+        max-width: 100%;
+        flex: 100%;
+        height: 280px;
+    }
+    .Portfolio .main-title {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .Portfolio .main-wrap {
+        padding-block: 30px 70px;
+    }
+}
+/* =========================== media screen  section end css=======================*/
