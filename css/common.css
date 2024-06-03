@@ -74,7 +74,7 @@ svg {
     opacity: 0.8;
 }
 .header_wrap_inner .logo_image {
-    max-width: 420px;
+    max-width: 160px;
     margin: 0 auto 15px;
 }
 /* ================================= header_wrap_inner end css ========================= */
